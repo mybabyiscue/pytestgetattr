@@ -49,6 +49,27 @@ class TestComm:
                 values = listcase[2:]
                 func(*values)
 
+    @allure.story('登录')
+    @pytest.mark.parametrize('listcases',readyaml('./lib/cases.yaml')['searchpage'])
+    def test_search(self,listcases):
+        try:
+            allure.dynamic.title(listcases['title'])
+            allure.description(listcases['description'])
+        except Exception as e:
+            pass
+        """
+        查询成功的用例
+        :return:
+        """
+        #利用反射机制
+        testcases = listcases['cases']
+        for cases in testcases:
+            listcase = list(cases.values())
+            with allure.step(listcase[0]):
+                func = getattr(self.web,listcase[1])
+                values = listcase[2:]
+                func(*values)
+
     @classmethod
     def teardown_class(cls):
          cls.web.closebrower()

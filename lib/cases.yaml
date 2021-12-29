@@ -52,3 +52,27 @@ loginpage:
       - name: 等待
         method: sleep
         locator: 3
+
+searchpage:
+  -
+    title : 正常查询
+    description: 单独查询功能
+    cases :
+      -
+        name : 打开主页
+        method : geturl
+        url : http://39.98.138.157/shopxo/
+
+      -
+        name : 输入查询信息
+        method : input
+        locator : xpath=//*[@id="search-input"]
+        value : 手机
+
+      - name: 点击登录
+        method: click
+        locator: //*[@id="ai-topsearch"]
+
+      - name: 等待
+        method: sleep
+        locator: 3
