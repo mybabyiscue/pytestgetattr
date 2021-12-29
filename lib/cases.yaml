@@ -75,4 +75,4 @@ searchpage:
 
       - name: 等待
         method: sleep
-        locator: 3
+        locator: 4
