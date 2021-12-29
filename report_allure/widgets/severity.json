@@ -1,0 +1,31 @@
+[ {
+  "uid" : "5610ed4cab07fb5c",
+  "name" : "正常查询",
+  "time" : {
+    "start" : 1640763006550,
+    "stop" : 1640763019116,
+    "duration" : 12566
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e3e878f3da7a798c",
+  "name" : "登录成功",
+  "time" : {
+    "start" : 1640763000569,
+    "stop" : 1640763006531,
+    "duration" : 5962
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "94d38341abaa9093",
+  "name" : "登录失败",
+  "time" : {
+    "start" : 1640762987005,
+    "stop" : 1640763000567,
+    "duration" : 13562
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

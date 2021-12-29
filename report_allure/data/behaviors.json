@@ -1,0 +1,52 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "电商项目Web自动化测试",
+    "children" : [ {
+      "name" : "登录",
+      "children" : [ {
+        "name" : "登录失败",
+        "uid" : "94d38341abaa9093",
+        "parentUid" : "05c3ecf5a640fa4e416086adf930cfc6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640762987005,
+          "stop" : 1640763000567,
+          "duration" : 13562
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '登录失败', 'description': '登录失败的数据，用来测试用户名密码错误', 'cases': [{'name': '打开登录页', 'method': 'geturl', 'url': 'http://39.98.138.157/shopxo/index.php?s=/index/user/logininfo.html'}, {'name': '输入用户名', 'method': 'input', 'locator': 'xpath=/html/body/div[4]/div/div[2]/div[2]/form/div[1]/input', 'value': 'xuzhu66'}, {'name': '输入密码', 'method': 'input', 'locator': 'xpath=/html/body/div[4]/div/div[2]/div[2]/form/div[2]/input', 'value': 123456}, {'name': '点击登录', 'method': 'click', 'locator': 'xpath=/html/body/div[4]/div/div[2]/div[2]/form/div[3]/button'}, {'name': '等待', 'method': 'sleep', 'locator': 3}]}" ]
+      }, {
+        "name" : "登录成功",
+        "uid" : "e3e878f3da7a798c",
+        "parentUid" : "05c3ecf5a640fa4e416086adf930cfc6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640763000569,
+          "stop" : 1640763006531,
+          "duration" : 5962
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '登录成功', 'description': '登录失败的数据，用来测试用户名密码错误', 'cases': [{'name': '打开登录页', 'method': 'geturl', 'url': 'http://39.98.138.157/shopxo/index.php?s=/index/user/logininfo.html'}, {'name': '输入用户名', 'method': 'input', 'locator': 'xpath=/html/body/div[4]/div/div[2]/div[2]/form/div[1]/input', 'value': 'xuzhu666'}, {'name': '输入密码', 'method': 'input', 'locator': 'xpath=/html/body/div[4]/div/div[2]/div[2]/form/div[2]/input', 'value': 123456}, {'name': '点击登录', 'method': 'click', 'locator': 'xpath=/html/body/div[4]/div/div[2]/div[2]/form/div[3]/button'}, {'name': '等待', 'method': 'sleep', 'locator': 3}]}" ]
+      }, {
+        "name" : "正常查询",
+        "uid" : "5610ed4cab07fb5c",
+        "parentUid" : "05c3ecf5a640fa4e416086adf930cfc6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640763006550,
+          "stop" : 1640763019116,
+          "duration" : 12566
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '正常查询', 'description': '单独查询功能', 'cases': [{'name': '打开主页', 'method': 'geturl', 'url': 'http://39.98.138.157/shopxo/'}, {'name': '输入查询信息', 'method': 'input', 'locator': 'xpath=//*[@id=\"search-input\"]', 'value': '手机'}, {'name': '点击登录', 'method': 'click', 'locator': '//*[@id=\"ai-topsearch\"]'}, {'name': '等待', 'method': 'sleep', 'locator': 3}]}" ]
+      } ],
+      "uid" : "05c3ecf5a640fa4e416086adf930cfc6"
+    } ],
+    "uid" : "f9adea44472a2a9728d7a9abda43c053"
+  } ]
+}

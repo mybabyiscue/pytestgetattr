@@ -1,0 +1,180 @@
+{
+  "uid" : "5610ed4cab07fb5c",
+  "name" : "正常查询",
+  "fullName" : "ddt.Commerrce_test.TestComm#test_search",
+  "historyId" : "d1b96867277369ffb98483d583d22444",
+  "time" : {
+    "start" : 1640763006550,
+    "stop" : 1640763019116,
+    "duration" : 12566
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestComm",
+    "time" : {
+      "start" : 1640762985374,
+      "stop" : 1640762986978,
+      "duration" : 1604
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1640762985306,
+      "stop" : 1640762985374,
+      "duration" : 68
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "打开主页",
+      "time" : {
+        "start" : 1640763006550,
+        "stop" : 1640763011513,
+        "duration" : 4963
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "输入查询信息",
+      "time" : {
+        "start" : 1640763011513,
+        "stop" : 1640763011561,
+        "duration" : 48
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击登录",
+      "time" : {
+        "start" : 1640763011561,
+        "stop" : 1640763016103,
+        "duration" : 4542
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "等待",
+      "time" : {
+        "start" : 1640763016103,
+        "stop" : 1640763019116,
+        "duration" : 3013
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestComm::0",
+    "time" : {
+      "start" : 1640763019121,
+      "stop" : 1640763021279,
+      "duration" : 2158
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "登录"
+  }, {
+    "name" : "feature",
+    "value" : "电商项目Web自动化测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "ddt"
+  }, {
+    "name" : "suite",
+    "value" : "Commerrce_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestComm"
+  }, {
+    "name" : "host",
+    "value" : "ENG-469-A"
+  }, {
+    "name" : "thread",
+    "value" : "9152-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "ddt.Commerrce_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "listcases",
+    "value" : "{'title': '正常查询', 'description': '单独查询功能', 'cases': [{'name': '打开主页', 'method': 'geturl', 'url': 'http://39.98.138.157/shopxo/'}, {'name': '输入查询信息', 'method': 'input', 'locator': 'xpath=//*[@id=\"search-input\"]', 'value': '手机'}, {'name': '点击登录', 'method': 'click', 'locator': '//*[@id=\"ai-topsearch\"]'}, {'name': '等待', 'method': 'sleep', 'locator': 3}]}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5610ed4cab07fb5c.json",
+  "parameterValues" : [ "{'title': '正常查询', 'description': '单独查询功能', 'cases': [{'name': '打开主页', 'method': 'geturl', 'url': 'http://39.98.138.157/shopxo/'}, {'name': '输入查询信息', 'method': 'input', 'locator': 'xpath=//*[@id=\"search-input\"]', 'value': '手机'}, {'name': '点击登录', 'method': 'click', 'locator': '//*[@id=\"ai-topsearch\"]'}, {'name': '等待', 'method': 'sleep', 'locator': 3}]}" ]
+}

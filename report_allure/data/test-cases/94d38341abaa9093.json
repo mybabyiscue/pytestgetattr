@@ -1,0 +1,195 @@
+{
+  "uid" : "94d38341abaa9093",
+  "name" : "登录失败",
+  "fullName" : "ddt.Commerrce_test.TestComm#test_login",
+  "historyId" : "2ab2ac5351dfbda116f5088a8fe64887",
+  "time" : {
+    "start" : 1640762987005,
+    "stop" : 1640763000567,
+    "duration" : 13562
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestComm",
+    "time" : {
+      "start" : 1640762985374,
+      "stop" : 1640762986978,
+      "duration" : 1604
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1640762985306,
+      "stop" : 1640762985374,
+      "duration" : 68
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "打开登录页",
+      "time" : {
+        "start" : 1640762987005,
+        "stop" : 1640762997380,
+        "duration" : 10375
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "输入用户名",
+      "time" : {
+        "start" : 1640762997380,
+        "stop" : 1640762997449,
+        "duration" : 69
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "输入密码",
+      "time" : {
+        "start" : 1640762997449,
+        "stop" : 1640762997506,
+        "duration" : 57
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击登录",
+      "time" : {
+        "start" : 1640762997506,
+        "stop" : 1640762997552,
+        "duration" : 46
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "等待",
+      "time" : {
+        "start" : 1640762997552,
+        "stop" : 1640763000567,
+        "duration" : 3015
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestComm::0",
+    "time" : {
+      "start" : 1640763019121,
+      "stop" : 1640763021279,
+      "duration" : 2158
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "登录"
+  }, {
+    "name" : "feature",
+    "value" : "电商项目Web自动化测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "ddt"
+  }, {
+    "name" : "suite",
+    "value" : "Commerrce_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestComm"
+  }, {
+    "name" : "host",
+    "value" : "ENG-469-A"
+  }, {
+    "name" : "thread",
+    "value" : "9152-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "ddt.Commerrce_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "listcases",
+    "value" : "{'title': '登录失败', 'description': '登录失败的数据，用来测试用户名密码错误', 'cases': [{'name': '打开登录页', 'method': 'geturl', 'url': 'http://39.98.138.157/shopxo/index.php?s=/index/user/logininfo.html'}, {'name': '输入用户名', 'method': 'input', 'locator': 'xpath=/html/body/div[4]/div/div[2]/div[2]/form/div[1]/input', 'value': 'xuzhu66'}, {'name': '输入密码', 'method': 'input', 'locator': 'xpath=/html/body/div[4]/div/div[2]/div[2]/form/div[2]/input', 'value': 123456}, {'name': '点击登录', 'method': 'click', 'locator': 'xpath=/html/body/div[4]/div/div[2]/div[2]/form/div[3]/button'}, {'name': '等待', 'method': 'sleep', 'locator': 3}]}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "94d38341abaa9093.json",
+  "parameterValues" : [ "{'title': '登录失败', 'description': '登录失败的数据，用来测试用户名密码错误', 'cases': [{'name': '打开登录页', 'method': 'geturl', 'url': 'http://39.98.138.157/shopxo/index.php?s=/index/user/logininfo.html'}, {'name': '输入用户名', 'method': 'input', 'locator': 'xpath=/html/body/div[4]/div/div[2]/div[2]/form/div[1]/input', 'value': 'xuzhu66'}, {'name': '输入密码', 'method': 'input', 'locator': 'xpath=/html/body/div[4]/div/div[2]/div[2]/form/div[2]/input', 'value': 123456}, {'name': '点击登录', 'method': 'click', 'locator': 'xpath=/html/body/div[4]/div/div[2]/div[2]/form/div[3]/button'}, {'name': '等待', 'method': 'sleep', 'locator': 3}]}" ]
+}
